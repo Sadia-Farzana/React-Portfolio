@@ -1,11 +1,18 @@
 import './App.css';
-import Profile from './PortfolioController/Home/Profile';
+import Header from './Components/Header/Header'
+import Menu from './Components/Menu/Menu';
+import About from './Components/About/About'
+import Experience from './Components/Experience/Experience'
+import Contact from './Components/Contact/Contact'
+import Portfolio from './Components/Portfolio/Portfolio'
 
 function App() {
   return (
     <div className="App">
-       
-      <Profile/>
+      <Header/>
+      <Menu/>
+      <About/>
+      <Experience/>
     </div>
   );
 }
